@@ -17,6 +17,7 @@
 		808D6CAB19BB8D35009FD6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808D6CAA19BB8D35009FD6D5 /* Images.xcassets */; };
 		808D6CB719BB8D35009FD6D5 /* CombinismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D6CB619BB8D35009FD6D5 /* CombinismoTests.m */; };
 		808D6CC219BB8FA9009FD6D5 /* JogoDeCartasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D6CC119BB8FA9009FD6D5 /* JogoDeCartasViewController.m */; };
+		80B05C1C19CA414E0029309A /* JogoDeCombinacaoDeCartas.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B05C1B19CA414E0029309A /* JogoDeCombinacaoDeCartas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		808D6CB619BB8D35009FD6D5 /* CombinismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinismoTests.m; sourceTree = "<group>"; };
 		808D6CC019BB8FA9009FD6D5 /* JogoDeCartasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JogoDeCartasViewController.h; sourceTree = "<group>"; };
 		808D6CC119BB8FA9009FD6D5 /* JogoDeCartasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JogoDeCartasViewController.m; sourceTree = "<group>"; };
+		80B05C1A19CA414E0029309A /* JogoDeCombinacaoDeCartas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JogoDeCombinacaoDeCartas.h; sourceTree = "<group>"; };
+		80B05C1B19CA414E0029309A /* JogoDeCombinacaoDeCartas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JogoDeCombinacaoDeCartas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		5EFEC0BF19C0891400166072 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				80B05C1A19CA414E0029309A /* JogoDeCombinacaoDeCartas.h */,
+				80B05C1B19CA414E0029309A /* JogoDeCombinacaoDeCartas.m */,
 				5EFEC0BC19C088B900166072 /* Carta.h */,
 				5EFEC0BD19C088B900166072 /* Carta.m */,
 				5EFEC0C019C0892900166072 /* Baralho.h */,
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B05C1C19CA414E0029309A /* JogoDeCombinacaoDeCartas.m in Sources */,
 				808D6CA319BB8D35009FD6D5 /* AppDelegate.m in Sources */,
 				5EFEC0BE19C088B900166072 /* Carta.m in Sources */,
 				808D6CA019BB8D35009FD6D5 /* main.m in Sources */,

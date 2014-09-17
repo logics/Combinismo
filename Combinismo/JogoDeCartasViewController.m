@@ -7,6 +7,7 @@
 //
 
 #import "JogoDeCartasViewController.h"
+#import "JogoDeCombinacaoDeCartas.h"
 #import "BaralhoDeJogo.h"
 
 @interface JogoDeCartasViewController ()
@@ -72,11 +73,5 @@
 #pragma mark - Delegates
 
 #pragma mark - Notification center
-
-
-
-
-
-
 
 @end
