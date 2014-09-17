@@ -54,8 +54,15 @@
 
 - (IBAction)virarCarta:(UIButton *)carta
 {
-    NSUInteger cartaIndex = 
-    Carta *cartaSelecionada = self.jogo 
+    NSUInteger cartaIndex = [self.cartasButton indexOfObject:carta];
+    [self.jogo escolherCartaNoIndex:cartaIndex];
+    
+    [self atualizarUI];
+}
+
+- (void)atualizarUI
+{
+
 }
 
 #pragma mark - Delegates
