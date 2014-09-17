@@ -12,6 +12,11 @@
 
 @synthesize naipe = _naipe;
 
+- (int)combinar:(NSArray *)outrasCartas
+{
+    return 0;
+}
+
 - (NSString *)conteudo
 {
     NSArray *numerosStrings = [CartaDeJogo numerosString];

@@ -19,7 +19,6 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cartasButton;
 @property (weak, nonatomic) IBOutlet UILabel *pontuacaoLabel;
 
-
 @end
 
 @implementation JogoDeCartasViewController
