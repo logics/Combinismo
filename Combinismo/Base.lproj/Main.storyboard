@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RS-XT-sNZ">
-                                <rect key="frame" x="125" y="234" width="71" height="100"/>
+                                <rect key="frame" x="6" y="20" width="71" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" backgroundImage="cartaVerso">
                                     <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,6 +33,149 @@
                                 </state>
                                 <connections>
                                     <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DIu-zQ-xXv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjT-Jt-v8C">
+                                <rect key="frame" x="85" y="20" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H5c-xu-iml"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okE-jT-0aj">
+                                <rect key="frame" x="164" y="20" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FJJ-6I-saL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qd-B9-J4W">
+                                <rect key="frame" x="243" y="20" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pVS-XM-4FM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amr-0H-Ctd">
+                                <rect key="frame" x="6" y="128" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ACv-YV-IBC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAP-Tq-z1h">
+                                <rect key="frame" x="85" y="128" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d7k-JY-GC5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olY-AI-516">
+                                <rect key="frame" x="164" y="128" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ySJ-es-HRT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKt-6n-Y0e">
+                                <rect key="frame" x="243" y="128" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PH0-08-2pr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VB-CT-vB9">
+                                <rect key="frame" x="6" y="234" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mMF-vN-nzt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2f-pc-BBr">
+                                <rect key="frame" x="85" y="234" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tkf-lb-eod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLW-Ik-SIQ">
+                                <rect key="frame" x="164" y="234" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mb8-Zq-Ucn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78f-mP-puT">
+                                <rect key="frame" x="243" y="234" width="71" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" backgroundImage="cartaVerso">
+                                    <color key="titleColor" red="0.76327730429999996" green="0.76327730429999996" blue="0.76327730429999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="virarCarta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZCG-oV-SlA"/>
                                 </connections>
                             </button>
                         </subviews>
