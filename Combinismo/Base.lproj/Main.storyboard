@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tentativas: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6p-7Z-79N">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pontuação: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6p-7Z-79N">
                                 <rect key="frame" x="16" y="527" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -182,7 +182,7 @@
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="tentativasLabel" destination="R6p-7Z-79N" id="nXi-ts-ZAo"/>
+                        <outlet property="pontuacaoLabel" destination="R6p-7Z-79N" id="d36-CS-ieh"/>
                         <outletCollection property="cartasButton" destination="7RS-XT-sNZ" id="BPh-yi-zPr"/>
                         <outletCollection property="cartasButton" destination="kjT-Jt-v8C" id="stb-4P-2yw"/>
                         <outletCollection property="cartasButton" destination="okE-jT-0aj" id="dme-KI-DnO"/>
