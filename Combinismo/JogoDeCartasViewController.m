@@ -13,11 +13,10 @@
 @interface JogoDeCartasViewController ()
 
 // Model
-@property (nonatomic) NSUInteger tentativas;
-@property (strong, nonatomic) Baralho *baralho;
 @property (strong, nonatomic) JogoDeCombinacaoDeCartas *jogo;
+
 // View
-@property (weak, nonatomic) IBOutlet UILabel *tentativasLabel;
+
 
 @end
 
@@ -25,33 +24,26 @@
 
 #pragma mark - Getters overriders
 
-- (Baralho *)baralho
-{
-    if (!_baralho) _baralho = [[BaralhoDeJogo alloc] init];
-    
-    return _baralho;
-}
-
 - (JogoDeCombinacaoDeCartas *)jogo
 {
-    if (_jogo) _jogo = [[JogoDeCombinacaoDeCartas alloc] initComContagemDeCartas:12 usandoBaralho:self.baralho];
+    if (_jogo) _jogo = [[JogoDeCombinacaoDeCartas alloc] initComContagemDeCartas:12 usandoBaralho:[self criarBaralho]];
     
     return _jogo;
 }
 
 #pragma mark - Setters overriders
 
-- (void)setTentativas:(NSUInteger)tentativas
-{
-    _tentativas = tentativas;
-    self.tentativasLabel.text = [NSString stringWithFormat:@"Tentativas: %d", (int)self.tentativas];
-}
-
 #pragma mark - Designated initializers
 
 #pragma mark - Public methods
 
 #pragma mark - Private methods
+
+- (BaralhoDeJogo *)criarBaralho
+{
+    return [[BaralhoDeJogo alloc] init];
+}
+
 
 #pragma mark - ViewController life cycle
 
@@ -61,20 +53,7 @@
 
 - (IBAction)virarCarta:(UIButton *)carta
 {
-    if ([carta.currentTitle isEqualToString:@""] || !carta.currentTitle) {
-        
-        // sorteia uma carta
-        Carta *cartaSorteada = [self.baralho tirarCartaAleatoria];
-        [carta setTitle:cartaSorteada.conteudo forState:UIControlStateNormal];
-        
-        [cartaSorteada combinar:@[]];
-        
-        // incrementa
-        self.tentativas++;
-    }
-    else{
-        [carta setTitle:@"" forState:UIControlStateNormal];
-    }
+    
 }
 
 #pragma mark - Delegates
