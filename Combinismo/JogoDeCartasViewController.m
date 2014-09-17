@@ -63,7 +63,28 @@
 
 - (void)atualizarUI
 {
+    for (UIButton *cartaButton in self.cartasButton) {
+        NSUInteger cartaIndex = [self.cartasButton indexOfObject:cartaButton];
+        Carta *carta = [self.jogo cartaNoIndex:cartaIndex];
+        
+        [cartaButton setTitle:[self tituloParaACarta:carta] forState:UIControlStateNormal];
+        [cartaButton setBackgroundImage:[self imagemParaACarta:carta] forState:UIControlStateNormal];
+        
+        cartaButton.enabled = !carta.isCombinada;
+        
+    }
+    
+    self.pontuacaoLabel.text = [NSString stringWithFormat:@"Pontuação: %ld", (long)self.jogo.pontuacao];
+}
 
+- (NSString *)tituloParaACarta:(Carta *)carta
+{
+    return carta.isEscolhida ? carta.conteudo : @"";
+}
+
+- (UIImage *)imagemParaACarta:(Carta *)carta
+{
+    return [UIImage imageNamed: carta.isEscolhida ? @"cartaFrente" : @"cartaVerso"];
 }
 
 #pragma mark - Delegates
