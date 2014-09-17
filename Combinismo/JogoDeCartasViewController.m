@@ -15,7 +15,7 @@
 // Model
 @property (nonatomic) NSUInteger tentativas;
 @property (strong, nonatomic) Baralho *baralho;
-
+@property (strong, nonatomic) JogoDeCombinacaoDeCartas *jogo;
 // View
 @property (weak, nonatomic) IBOutlet UILabel *tentativasLabel;
 
@@ -30,6 +30,13 @@
     if (!_baralho) _baralho = [[BaralhoDeJogo alloc] init];
     
     return _baralho;
+}
+
+- (JogoDeCombinacaoDeCartas *)jogo
+{
+    if (_jogo) _jogo = [[JogoDeCombinacaoDeCartas alloc] initComContagemDeCartas:12 usandoBaralho:self.baralho];
+    
+    return _jogo;
 }
 
 #pragma mark - Setters overriders
