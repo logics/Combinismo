@@ -27,7 +27,7 @@
 
 - (JogoDeCombinacaoDeCartas *)jogo
 {
-    if (!_jogo) _jogo = [[JogoDeCombinacaoDeCartas alloc] initComContagemDeCartas:self.cartasButton.count usandoBaralho:[self criarBaralho]];
+    if (!_jogo) _jogo = [[JogoDeCombinacaoDeCartas alloc] initComContagemDeCartas:16 usandoBaralho:[self criarBaralho]];
     
     return _jogo;
 }
