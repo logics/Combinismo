@@ -183,6 +183,18 @@
                     </view>
                     <connections>
                         <outlet property="tentativasLabel" destination="R6p-7Z-79N" id="nXi-ts-ZAo"/>
+                        <outletCollection property="cartasButton" destination="7RS-XT-sNZ" id="BPh-yi-zPr"/>
+                        <outletCollection property="cartasButton" destination="kjT-Jt-v8C" id="stb-4P-2yw"/>
+                        <outletCollection property="cartasButton" destination="okE-jT-0aj" id="dme-KI-DnO"/>
+                        <outletCollection property="cartasButton" destination="5qd-B9-J4W" id="FfM-f3-hyC"/>
+                        <outletCollection property="cartasButton" destination="amr-0H-Ctd" id="kSv-1V-sCR"/>
+                        <outletCollection property="cartasButton" destination="NAP-Tq-z1h" id="V3O-qV-rcq"/>
+                        <outletCollection property="cartasButton" destination="olY-AI-516" id="28r-Dy-aW1"/>
+                        <outletCollection property="cartasButton" destination="iKt-6n-Y0e" id="vCO-BJ-y57"/>
+                        <outletCollection property="cartasButton" destination="2VB-CT-vB9" id="ly5-pz-f7M"/>
+                        <outletCollection property="cartasButton" destination="j2f-pc-BBr" id="uhM-Xu-4H3"/>
+                        <outletCollection property="cartasButton" destination="nLW-Ik-SIQ" id="oqs-Ih-jmq"/>
+                        <outletCollection property="cartasButton" destination="78f-mP-puT" id="LSN-nw-BvY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

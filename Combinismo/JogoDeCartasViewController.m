@@ -16,6 +16,7 @@
 @property (strong, nonatomic) JogoDeCombinacaoDeCartas *jogo;
 
 // View
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cartasButton;
 
 
 @end
@@ -53,7 +54,8 @@
 
 - (IBAction)virarCarta:(UIButton *)carta
 {
-    
+    NSUInteger cartaIndex = 
+    Carta *cartaSelecionada = self.jogo 
 }
 
 #pragma mark - Delegates
